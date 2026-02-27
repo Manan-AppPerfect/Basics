@@ -3,11 +3,26 @@ package pointers
 import "fmt"
 
 func Pointers() {
-	a := 20
+	// a := 20
 
-	p := &a
+	// p := &a
 
-	fmt.Println(*p)
+	// fmt.Println(*p)
+
+    paul := User{
+        Name: "Paul",
+    }
+    Change(&paul)
+    fmt.Println(paul)
+}
+
+
+type User struct {
+    Name string
+}
+
+func Change(u *User){
+    u.Name = "Saul"
 }
 
 /*

@@ -6,25 +6,25 @@ import (
 	// "basics/looping"
 	// "basics/arrays"
 	// "basics/interfaces"
-	"basics/generic"
+	// "basics/generic"
 	"basics/pointers"
-	"basics/structs"
-	"fmt"
+	// "basics/structs"
+	// "fmt"
 )
 
 func main(){
-	RB := structs.Car{
-		Model: "RB19",
-		Engine: 12,
-		RevModule: true,
-		Driver1: structs.Driver{
-			Name: "MV33",
-			WDC: 4,
-		},
-	}
+	// RB := structs.Car{
+	// 	Model: "RB19",
+	// 	Engine: 12,
+	// 	RevModule: true,
+	// 	Driver1: structs.Driver{
+	// 		Name: "MV33",
+	// 		WDC: 4,
+	// 	},
+	// }
 
-	RB.UpdateEngine()
-	fmt.Println(RB)
+	// RB.UpdateEngine()
+	// fmt.Println(RB)
 	// fmt.Println(RB.Driver1.WDC)
 	// datatypes.Variable()
 	// fmt.Println(conditionals.Compare())
@@ -35,6 +35,6 @@ func main(){
 	// interfaces.InterfaceShapes()
 	// arrays.Array()
 	pointers.Pointers()
-	generic.Generic()
+	// generic.Generic()
 
 }
